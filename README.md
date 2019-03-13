@@ -1,2 +1,2 @@
 # mobile-sdk-ios
-The iOS SDK Cocoapod.
+The iOS SDK CocoaPod.
