@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage  = "https://github.com/mozioinc/mobile-sdk-ios"
   
   s.license   = { :type => "Copyright", :text => "Copyright 2019 Mozio", :file => "LICENSE" }
-  s.author    = { "Mozio" => "info@mozio.com" }
+  s.author    = { "Mozio" => "sdk@mozio.com" }
 
   s.platform              = :ios
   s.swift_version         = "4.2"
