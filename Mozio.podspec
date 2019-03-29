@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary   = "Add ground transportation features to any app in a few lines of code!"
   s.homepage  = "https://github.com/mozioinc/mobile-sdk-ios"
   
-  s.license   = { :type => "MIT", :file => "LICENSE" }
+  s.license   = { :type => "Copyright", :text => "Copyright 2019 Mozio", :file => "LICENSE" }
   s.author    = { "Mozio" => "info@mozio.com" }
 
   s.platform              = :ios
