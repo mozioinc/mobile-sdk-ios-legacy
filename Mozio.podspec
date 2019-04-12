@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source                  = { :http => "https://github.com/mozioinc/mobile-sdk-ios/raw/1.0.1/MozioSDK.zip" }
   s.ios.vendored_frameworks = "MozioSDK.framework"
 
-  s.dependency 'DeepDiff', '~> 1.4.0'
+  s.dependency 'DeepDiff', '~> 2.0.1'
   s.dependency 'GoogleMaps', '~> 3.0.3'
   s.dependency 'KeychainSwift', '~> 13.0.0'
   s.dependency 'Kingfisher', '~> 5.3.1'
