@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMaps', '~> 3.0.3'
   s.dependency 'KeychainSwift', '~> 13.0.0'
   s.dependency 'Kingfisher', '~> 5.3.1'
-  s.dependency 'ReSwift', '~> 4.0.1'
+  s.dependency 'ReSwift', '~> 4.1.1'
   s.dependency 'SnapKit', '~> 4.2.0'
   s.dependency 'Unbox', '~> 3.0.0'
 
