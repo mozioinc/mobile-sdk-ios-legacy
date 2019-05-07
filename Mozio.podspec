@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name      = "Mozio"
-  s.version   = "1.0.3"
+  s.version   = "1.0.4"
   s.summary   = "Add ground transportation features to any app in a few lines of code!"
   s.homepage  = "https://github.com/mozioinc/mobile-sdk-ios"
   
@@ -12,15 +12,15 @@ Pod::Spec.new do |s|
   s.swift_version         = "4.2"
   s.ios.deployment_target = "10.0"
 
-  s.source                  = { :http => "https://github.com/mozioinc/mobile-sdk-ios/raw/1.0.3/MozioSDK.zip" }
+  s.source                  = { :http => "https://github.com/mozioinc/mobile-sdk-ios/raw/swift-5/MozioSDK.zip" }
   s.ios.vendored_frameworks = "MozioSDK.framework"
 
-  s.dependency 'DeepDiff', '~> 2.0.1'
-  s.dependency 'GoogleMaps', '~> 3.0.3'
-  s.dependency 'KeychainSwift', '~> 13.0.0'
-  s.dependency 'Kingfisher', '~> 5.3.1'
+  s.dependency 'DeepDiff', '~> 2.2.0'
+  s.dependency 'GoogleMaps', '~> 3.1.0'
+  s.dependency 'KeychainSwift', '~> 15.0.0'
+  s.dependency 'Kingfisher', '~> 5.4.0'
   s.dependency 'ReSwift', '~> 4.1.1'
-  s.dependency 'SnapKit', '~> 4.2.0'
-  s.dependency 'Unbox', '~> 3.0.0'
+  s.dependency 'SnapKit', '~> 5.0.0'
+  s.dependency 'Unbox', '~> 4.0.0'
 
 end
