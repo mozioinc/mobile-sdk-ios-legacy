@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.swift_version         = "4.2"
   s.ios.deployment_target = "10.0"
 
-  s.source                  = { :http => "https://github.com/mozioinc/mobile-sdk-ios/raw/2.0/MozioSDK.zip" }
+  s.source                  = { :http => "https://github.com/mozioinc/mobile-sdk-ios/blob/swift-5.1/MozioSDK.zip?raw=true" }
   s.ios.vendored_frameworks = "MozioSDK.framework"
 
   s.dependency 'DeepDiff', '~> 2.2.0'
