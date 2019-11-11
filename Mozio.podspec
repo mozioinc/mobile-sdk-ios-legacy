@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name      = "Mozio"
-  s.version   = "2.1.3"
+  s.version   = "2.1.4"
   s.summary   = "Add ground transportation features to any app in a few lines of code!"
   s.homepage  = "https://github.com/mozioinc/mobile-sdk-ios"
   
@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.author    = { "Mozio" => "sdk@mozio.com" }
 
   s.platform              = :ios
-  s.swift_version         = "4.2"
+  s.swift_version         = "5"
   s.ios.deployment_target = "10.0"
 
-  s.source                  = { :http => "https://github.com/mozioinc/mobile-sdk-ios/raw/2.1.3/MozioSDK.zip" }
+  s.source                  = { :http => "https://github.com/mozioinc/mobile-sdk-ios/raw/2.1.4-rc1/MozioSDK.zip" }
   s.ios.vendored_frameworks = "MozioSDK.framework"
 
   s.dependency 'DeepDiff', '~> 2.2.0'
