@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.dependency 'ReSwift', '~> 4.1.1'
   s.dependency 'SnapKit', '~> 5.0.0'
   s.dependency 'Unbox', '~> 4.0.0'
-  s.dependency 'Stripe', '~> 15.0.1'
+  s.dependency 'Stripe', '~> 19.0.1'
   s.dependency 'Connectivity', '3.1.0'
 
 end
